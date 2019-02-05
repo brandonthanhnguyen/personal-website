@@ -1,0 +1,18 @@
+.nav-social-media {
+  padding: 0.5rem 0 0.5rem 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-social-media a:first-child img {
+    margin-left: 0;
+  }
+}
+
+.nav-icon {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.nav-icon:hover {
+  transform: scale(1.5);
+}
