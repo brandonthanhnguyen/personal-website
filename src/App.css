@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Hearth Stone';
+  src: url('./fonts/Hearth Stone.otf');
+}

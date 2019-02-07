@@ -13,7 +13,7 @@ class NavigationBar extends Component {
   render() {
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
-        <Navbar.Brand href="#home">BRANDON NGUYEN</Navbar.Brand>
+        <Navbar.Brand href="#home"><span className="nav-logo">Brandon Nguyen</span></Navbar.Brand>
         <Navbar.Toggle/>
         <Navbar.Collapse>
           <Nav className="mr-auto">

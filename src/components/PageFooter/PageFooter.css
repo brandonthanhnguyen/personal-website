@@ -14,8 +14,28 @@
     color: #777;
 }
 
-.container-fluid {
+.copyright {
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+footer .container-fluid {
     max-width: 1170px;
+}
+
+.page-footer-icons {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+}
+
+.footer-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @media all and (max-width: 1200px) {
@@ -27,5 +47,9 @@
 @media all and (max-width: 768px) {
     .page-footer {
         padding: 4.5rem 0 4.5rem 0 !important;
+    }
+
+    .page-footer-col1 {
+        margin-bottom: 1rem;
     }
 }

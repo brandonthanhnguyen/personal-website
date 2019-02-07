@@ -1,0 +1,52 @@
+.main-hero {
+    background: white;
+}
+
+.main-hero-col1 {
+    min-height: 92vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-hero-subtitle {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.main-hero-title {
+    font-family: 'Hearth Stone';
+    font-size: 55.5px;
+    font-weight: 600;
+    margin-bottom: 2.25rem;
+}
+
+.main-hero-text {
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+
+.main-hero-text-container {
+    padding: 0.5rem;
+}
+
+.hero-subtitle2 {
+    margin-bottom: 2rem;
+}
+
+@media all and (max-width: 1200px) {
+}
+
+@media all and (max-width: 960px) {
+}
+
+@media all and (max-width: 768px) {
+    .hero-subtitle1 {
+        margin-top: 4rem;
+    }
+
+    .main-hero-button {
+        margin-bottom: 4rem;
+    }
+}
