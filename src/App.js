@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import NavigationBar from './components/Navigation/NavigationBar.js';
+import PageFooter from './components/PageFooter/PageFooter.js';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <PageFooter />
       </div>
     );
   }
