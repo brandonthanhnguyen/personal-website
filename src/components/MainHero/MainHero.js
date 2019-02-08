@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './MainHero.css';
 
 import Button from 'react-bootstrap/Button';
+import Particles from 'react-particles-js';
 
 import PlaceholderMountains from '../../img/MainHero/placeholder_mountains.jpg';
 
@@ -11,16 +12,81 @@ class MainHero extends Component {
     return (
       <div className="main-hero container-fluid">
         <div className="row row-eq-height hero-row">
-            <div className="col-md-12 main-hero-col1" style={{backgroundImage: 'url(' + PlaceholderMountains + ')'}}>
-            </div>
+            <Particles className="col-md-12 main-hero-col1" params={{
+                    "particles": {
+                      "number": {
+                        "value": 75,
+                        "density": {
+                          "enable": true,
+                          "value_area": 1000
+                        }
+                      },
+                      "color": {
+                        "value": "#d3d3d3"
+                      },
+                      "shape": {
+                        "type": "circle",
+                        "stroke": {
+                          "width": 0,
+                          "color": "#d3d3d3"
+                        },
+                        "polygon": {
+                          "nb_sides": 5
+                        }
+                      },
+                      "opacity": {
+                        "value": 0.5,
+                        "random": true,
+                        "anim": {
+                          "enable": true,
+                          "speed": 0.5,
+                          "opacity_min": 0.1,
+                          "sync": false
+                        }
+                      },
+                      "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                          "enable": false,
+                          "speed": 40,
+                          "size_min": 0.1,
+                          "sync": false
+                        }
+                      },
+                      "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#d3d3d3",
+                        "opacity": 0.4,
+                        "width": 1
+                      },
+                      "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                          "enable": false,
+                          "rotateX": 600,
+                          "rotateY": 1200
+                        }
+                      }
+                    }
+                }} style={{backgroundImage: 'url(' + PlaceholderMountains + ')'}}/>
             <div className="col-md-4 main-hero-col2">
                 <div className="main-hero-text-container">
                     <h1 className="main-hero-subtitle hero-subtitle1">This is me,</h1>
                     <h1 className="main-hero-title">Brandon Nguyen</h1>
                     <h1 className="main-hero-subtitle hero-subtitle2">Developer & Designer</h1>
-
                     <p className="main-hero-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate mi ut mauris posuere maximus. Aenean sodales turpis ac quam lobortis, eu venenatis sapien tincidunt. Aliquam nulla felis, egestas sed enim quis, aliquet ornare dui. Sed scelerisque arcu diam, ac interdum sem convallis ut.
+                        I am a 23-year-old software engineer specializing in front-end development. My designs are powered by my creative eye and passion for transforming simple ideas into immersive user experiences.
+                    </p>
+                    <p className="main-hero-text">
+                        My passion is transforming simple ideas into <span className="hero-emphasis">modern</span> and <span className="hero-emphasis">fully immersive</span> user experiences.
                     </p>
                     <Button className="main-hero-button" variant="outline-primary">Let's Connect</Button>
                 </div>

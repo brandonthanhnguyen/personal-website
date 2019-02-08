@@ -3,7 +3,12 @@
 }
 
 .main-hero-col1 {
-    min-height: 92vh;
+    padding: 0 !important;
+    height: 92vh !important;
+}
+
+canvas {
+    height: 92vh !important;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,13 +34,13 @@
     font-size: 55.5px;
     font-weight: 600;
     margin-bottom: 2.25rem;
-    color: #ffeb7f;
+    color: khaki;
 }
 
 .main-hero-text {
     line-height: 25px;
     margin-bottom: 2rem;
-    color: white;
+    color: rgb(255,255,255,0.5);
 }
 
 .main-hero-text-container {
@@ -53,6 +58,11 @@
 
 .hero-row {
     justify-content: flex-end;
+}
+
+.hero-emphasis {
+    color: white;
+    font-weight: 600;
 }
 
 @media all and (max-width: 1200px) {
@@ -76,7 +86,11 @@
     }
 
     .main-hero-col1 {
-        min-height: 46vh;
+        height: 46vh !important;
+    }
+
+    canvas {
+        height: 46vh !important;
         background-attachment: scroll;
     }
 
@@ -86,7 +100,7 @@
         background: white;
     }
 
-    .main-hero-subtitle, .main-hero-text {
+    .main-hero-subtitle, .main-hero-text, .hero-emphasis {
         color: black;
     }
 }
