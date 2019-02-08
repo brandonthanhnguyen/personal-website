@@ -40,7 +40,7 @@ canvas {
 .main-hero-text {
     line-height: 25px;
     margin-bottom: 2rem;
-    color: rgb(255,255,255,0.5);
+    color: rgb(255,255,255,0.6);
 }
 
 .main-hero-text-container {
@@ -88,26 +88,19 @@ canvas {
         margin-bottom: 2.5rem;
     }
 
-    .main-hero-col1 {
-        height: 46vh !important;
+    .main-hero-col2 {
+        background: rgb(40,44,52,0.5);
     }
 
     canvas {
-        height: 46vh !important;
         background-attachment: scroll;
-    }
-
-    .main-hero-col2 {
-        min-height: 0;
-        position: relative;
-        background: white;
-    }
-
-    .main-hero-subtitle, .main-hero-text, .hero-emphasis {
-        color: black;
     }
 
     .main-hero-title {
         margin-top: 2rem;
+    }
+
+    .main-hero-text {
+        color: rgb(255,255,255,0.6);
     }
 }

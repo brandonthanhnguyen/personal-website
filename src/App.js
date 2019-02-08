@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import NavigationBar from './components/Navigation/NavigationBar.js';
@@ -13,7 +12,9 @@ class App extends Component {
       <div className="App">
         <NavigationBar />
         <MainHero />
+
         <div style={{height: '750px', backgroundColor: '#282c34'}}/>
+        
         <PageFooter />
       </div>
     );
