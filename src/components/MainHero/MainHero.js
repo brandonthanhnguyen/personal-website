@@ -88,7 +88,7 @@ class MainHero extends Component {
                     <p className="main-hero-text">
                         My passion is transforming simple ideas into <span className="hero-emphasis">modern</span> and <span className="hero-emphasis">fully immersive</span> user experiences.
                     </p>
-                    <Button className="main-hero-button" variant="outline-primary">Let's Connect</Button>
+                    <a href="mailto:me@nguyenbrandon.com?subject=Website%20Contact"><Button className="main-hero-button" variant="outline-primary">Let's Connect</Button></a>
                 </div>
             </div>
         </div>
