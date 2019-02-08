@@ -10,8 +10,8 @@ class MainHero extends Component {
   render() {
     return (
       <div className="main-hero container-fluid">
-        <div className="row align-items-center">
-            <div className="col-md-8 main-hero-col1" style={{backgroundImage: 'url(' + PlaceholderMountains + ')'}}>
+        <div className="row row-eq-height hero-row">
+            <div className="col-md-12 main-hero-col1" style={{backgroundImage: 'url(' + PlaceholderMountains + ')'}}>
             </div>
             <div className="col-md-4 main-hero-col2">
                 <div className="main-hero-text-container">
