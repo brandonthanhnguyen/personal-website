@@ -51,6 +51,10 @@ canvas {
     margin-bottom: 2rem;
 }
 
+.hero-subtitle1 {
+    margin-bottom: 0.8rem;
+}
+
 .main-hero-button {
     border-radius: 30px;
     border: 2px solid #007bff;
@@ -74,7 +78,6 @@ canvas {
 @media all and (max-width: 767px) {
     .hero-subtitle1 {
         margin-top: 2rem;
-        margin-bottom: 1rem;
     }
 
     .hero-subtitle2 {
@@ -102,5 +105,9 @@ canvas {
 
     .main-hero-subtitle, .main-hero-text, .hero-emphasis {
         color: black;
+    }
+
+    .main-hero-title {
+        margin-top: 2rem;
     }
 }
