@@ -5,6 +5,7 @@ import NavigationBar from './components/Navigation/NavigationBar.js';
 import PageFooter from './components/PageFooter/PageFooter.js';
 
 import MainHero from './components/MainHero/MainHero.js';
+import AboutMe from './components/AboutMe/AboutMe.js';
 
 class App extends Component {
   render() {
@@ -13,8 +14,8 @@ class App extends Component {
         <NavigationBar />
         <MainHero />
 
-        <div style={{height: '750px', backgroundColor: '#282c34'}}/>
-        
+        <AboutMe />
+
         <PageFooter />
       </div>
     );

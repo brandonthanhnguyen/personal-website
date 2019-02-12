@@ -27,7 +27,7 @@ class PageFooter extends Component {
                         <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer"><div className="footer-icon" style={{backgroundImage: 'url(' + GithubIcon + ')'}}></div></a>
                     </div>
                     <p className="page-footer-text">
-                        <a href="https://github.com/brandonthanhnguyen/personal-website" target="_blank" rel="noopener noreferrer">Take a look at my code!</a>
+                        <a href="https://github.com/brandonthanhnguyen/personal-website" target="_blank" rel="noopener noreferrer">Take a look at my code</a>
                     </p>
                 </div>
                 <div className="col-md-6 page-footer-col2">

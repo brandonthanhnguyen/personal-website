@@ -16,7 +16,7 @@ canvas {
 }
 
 .main-hero-col2 {
-    min-height: 95vh;
+    height: 95vh;
     position: absolute;
     display: flex;
     align-items: center;
@@ -115,12 +115,40 @@ canvas {
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 321px) {
     canvas, .main-hero-col1, .main-hero-col2 {
         height: 135vh !important;
     }
 
     .hero-subtitle1 {
         margin-top: 1.75rem !important;
+    }
+}
+
+/** Landscape orientation **/
+
+@media all and (max-height: 425px) and (min-width: 810px) {
+    canvas, .main-hero-col1, .main-hero-col2 {
+        height: 50rem !important;
+    }
+}
+
+@media all and (max-height: 425px) and (max-width: 810px) {
+    canvas, .main-hero-col1, .main-hero-col2 {
+        height: 32.5rem !important;
+    }
+}
+
+/** Tablets **/
+
+@media all and (min-height: 1000px) {
+    canvas, .main-hero-col1, .main-hero-col2 {
+        height: 85vh !important;
+    }
+}
+
+@media all and (min-height: 1280px) {
+    canvas, .main-hero-col1, .main-hero-col2 {
+        height: 67.5vh !important;
     }
 }
