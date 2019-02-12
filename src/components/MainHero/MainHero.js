@@ -83,7 +83,7 @@ class MainHero extends Component {
                     <h1 className="main-hero-title">Brandon Nguyen</h1>
                     <h1 className="main-hero-subtitle hero-subtitle2">Developer & Designer</h1>
                     <p className="main-hero-text">
-                        I am a 23-year-old software engineer specializing in front-end development. I have a strong creative eye that allows me to incorporate photography/videography, graphic design, and animation into my work.
+                        I am a software engineer specializing in front-end development. I have a strong creative eye that allows me to incorporate photography/videography, graphic design, and animation into my work.
                     </p>
                     <p className="main-hero-text">
                         My passion is transforming simple ideas into <span className="hero-emphasis">modern</span> and <span className="hero-emphasis">fully immersive</span> user experiences.

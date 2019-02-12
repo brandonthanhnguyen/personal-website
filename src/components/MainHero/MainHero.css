@@ -4,11 +4,11 @@
 
 .main-hero-col1 {
     padding: 0 !important;
-    height: 92vh !important;
+    height: 95vh !important;
 }
 
 canvas {
-    height: 92vh !important;
+    height: 95vh !important;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ canvas {
 }
 
 .main-hero-col2 {
-    min-height: 92vh;
+    min-height: 95vh;
     position: absolute;
     display: flex;
     align-items: center;
@@ -102,5 +102,25 @@ canvas {
 
     .main-hero-text {
         color: rgb(255,255,255,0.6);
+    }
+}
+
+@media all and (max-height: 750px) and (max-width: 400px) {
+    canvas, .main-hero-col1, .main-hero-col2 {
+        height: 100vh !important;
+    }
+
+    .hero-subtitle1 {
+        margin-top: 2rem !important;
+    }
+}
+
+@media all and (max-width: 320px) {
+    canvas, .main-hero-col1, .main-hero-col2 {
+        height: 135vh !important;
+    }
+
+    .hero-subtitle1 {
+        margin-top: 1.75rem !important;
     }
 }
