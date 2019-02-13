@@ -2,6 +2,20 @@
     padding: 5rem 10rem !important;
 }
 
+.skillbar {
+    margin-bottom: 1.5rem;
+}
+
+.skillbar-title {
+    color: white;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.progress-bar {
+    transition: width 2s ease;
+}
+
 @media all and (max-width: 1200px) {
 }
 

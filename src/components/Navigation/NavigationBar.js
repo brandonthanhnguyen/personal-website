@@ -11,12 +11,15 @@ import InstagramLogo from '../../img/Navigation/neon_instagram.png'
 
 class NavigationBar extends Component {
 
+  scroll(ref) {
+      this.props.scrollTo(ref);
+  }
+
   render() {
 
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
         <Navbar.Brand href="#home"><span className="nav-logo">Brandon Nguyen</span></Navbar.Brand>
-        <Navbar.Toggle/>
         <Navbar.Collapse>
           <Nav className="mr-auto">
             <span className="nav-social-media">
@@ -27,10 +30,10 @@ class NavigationBar extends Component {
             </span>
           </Nav>
           <Nav>
-            <Nav.Link href="#home" className="nav-text">HOME</Nav.Link>
-            <Nav.Link href="#about" className="nav-text">ABOUT</Nav.Link>
-            <Nav.Link href="#portfolio" className="nav-text">PORTFOLIO</Nav.Link>
-            <Nav.Link href="#contact" className="nav-text">CONTACT</Nav.Link>
+            <Nav.Link className="nav-text" onClick={() => this.scroll("home")}>HOME</Nav.Link>
+            <Nav.Link className="nav-text" onClick={() => this.scroll("about")}>ABOUT</Nav.Link>
+            <Nav.Link className="nav-text">PORTFOLIO</Nav.Link>
+            <Nav.Link className="nav-text">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
