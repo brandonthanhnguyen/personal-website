@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import './AboutMe.css';
 
-import SkillBar from 'react-skillbars';
-
 var skills = [
   {
     "type": "HTML",
@@ -39,14 +37,6 @@ var skills = [
   },
 ]
 
-var colors = {
-  "bar": "#3498db",
-  "title": {
-    "text": "#fff",
-    "background": "#2980b9"
-  }
-}
-
 class AboutMe extends Component {
   render() {
     return (
@@ -62,11 +52,10 @@ class AboutMe extends Component {
                     <h1 className="app-section-title" style={{marginTop: '2rem'}}>PERSONAL INTERESTS</h1>
                     <p className="app-section-body-text">In my spare time, I like to stay active through running and playing sports such as basketball and football.</p>
                     <p className="app-section-body-text">I am also an avid traveller who dreams of seeing all of the world's major attractions (cliché I know). My last trip was a small tour around Western Europe and I plan to visit Southeast Asia next.</p>
-                    <p className="app-section-body-text about-last">I sometimes dabble in other forms of digital media. <a href="">Check out some of my work!</a></p>
+                    <p className="app-section-body-text about-last">I sometimes dabble in other forms of digital media. <a href="/">Check out some of my work!</a></p>
                 </div>
                 <div className="col-md-6">
                     <h1 className="app-section-title">SKILLS & PROFICIENCY</h1>
-                    <SkillBar skills={skills} colors={colors} height={47.5}/>
                 </div>
             </div>
         </div>

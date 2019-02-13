@@ -10,7 +10,9 @@ import TwitterLogo from '../../img/Navigation/neon_twitter.png'
 import InstagramLogo from '../../img/Navigation/neon_instagram.png'
 
 class NavigationBar extends Component {
+
   render() {
+
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
         <Navbar.Brand href="#home"><span className="nav-logo">Brandon Nguyen</span></Navbar.Brand>
