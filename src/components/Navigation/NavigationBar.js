@@ -20,6 +20,7 @@ class NavigationBar extends Component {
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
         <Navbar.Brand href="#home"><span className="nav-logo">Brandon Nguyen</span></Navbar.Brand>
+        <Navbar.Toggle/>
         <Navbar.Collapse>
           <Nav className="mr-auto">
             <span className="nav-social-media">
