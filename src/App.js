@@ -6,6 +6,7 @@ import PageFooter from './components/PageFooter/PageFooter.js';
 
 import MainHero from './components/MainHero/MainHero.js';
 import AboutMe from './components/AboutMe/AboutMe.js';
+import Experience from './components/Experience/Experience.js';
 
 import scrollToComponent from 'react-scroll-to-component';
 
@@ -18,6 +19,10 @@ class App extends Component {
         if (ref === "about") {
             scrollToComponent(this.refs.about, {align: 'top'});
         }
+
+        if (ref === "experience") {
+            scrollToComponent(this.refs.experience, {align: 'top'});
+        }
     }
 
     render() {
@@ -26,6 +31,8 @@ class App extends Component {
             <NavigationBar scrollTo={this.scrollTo}/>
             <MainHero ref="home"/>
             <AboutMe ref="about"/>
+            <hr className="section-divider" />
+            <Experience ref="experience"/>
             <PageFooter/>
             </div>
         );

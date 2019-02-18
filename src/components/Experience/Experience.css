@@ -1,0 +1,16 @@
+.experience {
+    padding: 5rem 10rem !important;
+}
+
+
+@media all and (max-width: 1200px) {
+}
+
+@media all and (max-width: 960px) {
+  .experience {
+    padding: 2rem 1rem !important;
+  }
+}
+
+@media all and (max-width: 768px) {
+}

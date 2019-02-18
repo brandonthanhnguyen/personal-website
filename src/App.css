@@ -19,3 +19,20 @@
     color: rgb(255,255,255,0.6);
     line-height: 1.75rem;
 }
+
+.section-divider {
+    background-color: rgb(255,255,255,0.6);
+    margin: 0 10.8rem 0 10.8rem;
+}
+
+@media all and (max-width: 1200px) {
+}
+
+@media all and (max-width: 960px) {
+  .section-divider {
+    margin: 0 2rem 0 2rem !important;
+  }
+}
+
+@media all and (max-width: 768px) {
+}

@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import './AboutMe.css';
 
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import awsBadge from '../../img/AboutMe/badge_aws.png'
+import icpBadge from '../../img/AboutMe/badge_icp.svg'
 
 import $ from 'jquery';
 
@@ -57,13 +59,12 @@ class AboutMe extends Component {
                             }}>PERSONAL INTERESTS</h1>
                         <p className="app-section-body-text">In my spare time, I like to stay active through running and playing sports such as basketball and football.</p>
                         <p className="app-section-body-text">I am also an avid traveller who dreams of seeing all of the world's major attractions (cliché I know). My last trip was a small tour around Western Europe and I plan to visit Southeast Asia next.</p>
-                        <p className="app-section-body-text about-last">I sometimes dabble in other forms of digital media.
-                            <a href="/">Check out some of my work!</a>
+                        <p className="app-section-body-text about-last">I sometimes dabble in other forms of digital media.&nbsp;<a href="/">Check out some of my work!</a>
                         </p>
                     </div>
                     <div className="col-md-6">
                         <h1 className="app-section-title">SKILLS & PROFICIENCY</h1>
-                        <div id="skillbar-container">
+                        <div className="skillbar-container">
                             <div className="skillbar">
                                 <span className="skillbar-title">HTML/CSS/JavaScript</span>
                                 <ProgressBar id="skillbar-html" min="0" max="100" now="0" label="95%"/>
@@ -93,6 +94,10 @@ class AboutMe extends Component {
                                 <span className="skillbar-title">Photoshop</span>
                                 <ProgressBar id="skillbar-photoshop" min="0" max="100" now="0" label="80%"/>
                             </div>
+                        </div>
+                        <div className="badges-container">
+                            <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank" rel="noopener noreferrer"><div className="about-me-badge" style={{backgroundImage: 'url(' + awsBadge + ')'}} /></a>
+                            <a href="https://icagile.com/" target="_blank" rel="noopener noreferrer"><div className="about-me-badge" style={{backgroundImage: 'url(' + icpBadge + ')'}} /></a>
                         </div>
                     </div>
                 </div>

@@ -33,7 +33,8 @@ class NavigationBar extends Component {
           <Nav>
             <Nav.Link className="nav-text" onClick={() => this.scroll("home")}>HOME</Nav.Link>
             <Nav.Link className="nav-text" onClick={() => this.scroll("about")}>ABOUT</Nav.Link>
-            <Nav.Link className="nav-text">PORTFOLIO</Nav.Link>
+            <Nav.Link className="nav-text" onClick={() => this.scroll("experience")}>EXPERIENCE</Nav.Link>
+            <Nav.Link className="nav-text" >PORTFOLIO</Nav.Link>
             <Nav.Link className="nav-text">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
