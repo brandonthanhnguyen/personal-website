@@ -32,6 +32,20 @@ class AboutMe extends Component {
                 }
             }, (500));
         }
+
+        element = document.getElementById("badges-container");
+
+        if (this.isInViewport(element)) {
+            var badges = document.getElementsByClassName("about-me-badge");
+
+            setTimeout(function() {
+                for (var i = 0; i < badges.length; i++) {
+                    if (badges[i].style.opacity === '') {
+                        badges[i].style.opacity = 100;
+                    }
+                }
+            }, (500));
+        }
     }
 
     isInViewport = (element) => {
@@ -95,7 +109,7 @@ class AboutMe extends Component {
                                 <ProgressBar id="skillbar-photoshop" min="0" max="100" now="0" label="80%"/>
                             </div>
                         </div>
-                        <div className="badges-container">
+                        <div id="badges-container" className="badges-container">
                             <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank" rel="noopener noreferrer"><div className="about-me-badge" style={{backgroundImage: 'url(' + awsBadge + ')'}} /></a>
                             <a href="https://icagile.com/" target="_blank" rel="noopener noreferrer"><div className="about-me-badge" style={{backgroundImage: 'url(' + icpBadge + ')'}} /></a>
                         </div>
