@@ -24,21 +24,15 @@ class AboutMe extends Component {
         if (this.isInViewport(element)) {
             var progressBars = document.getElementsByClassName("progress-bar");
 
+            var badges = document.getElementsByClassName("about-me-badge");
+
             setTimeout(function() {
                 for (var i = 0; i < progressBars.length; i++) {
                     if (progressBars[i].style.width === "0%") {
                         progressBars[i].style.width = progressBars[i].innerHTML;
                     }
                 }
-            }, (500));
-        }
 
-        element = document.getElementById("badges-container");
-
-        if (this.isInViewport(element)) {
-            var badges = document.getElementsByClassName("about-me-badge");
-
-            setTimeout(function() {
                 for (var i = 0; i < badges.length; i++) {
                     if (badges[i].style.opacity === '') {
                         badges[i].style.opacity = 100;
