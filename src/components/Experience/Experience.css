@@ -2,15 +2,60 @@
     padding: 5rem 10rem !important;
 }
 
+.work-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-card {
+    width: 22rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.card-image {
+    background-color: white;
+    height: 12.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.card-body {
+    background-color: #282c34;
+    border-radius: 0 0 2px 2px;
+}
+
+.card-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.card-subtitle {
+    margin-bottom: 0.5rem;
+    color: rgb(255,255,255,0.75);
+}
 
 @media all and (max-width: 1200px) {
 }
 
-@media all and (max-width: 960px) {
-  .experience {
-    padding: 2rem 1rem !important;
-  }
+@media all and (min-width: 961px) and (max-width: 1053px) {
+    .work-cards-container {
+        justify-content: space-around;
+    }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 960px) {
+    .experience {
+        padding: 2rem 1rem !important;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .work-cards-container {
+        justify-content: space-around;
+    }
 }
