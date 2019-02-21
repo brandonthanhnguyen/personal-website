@@ -21,6 +21,9 @@ canvas {
     display: flex;
     align-items: center;
     background: rgb(40,44,52,0.75);
+    transform: translateY(-750px);
+    opacity: 0;
+    transition: 2s;
 }
 
 .main-hero-subtitle {
@@ -90,6 +93,7 @@ canvas {
 
     .main-hero-col2 {
         background: rgb(40,44,52,0.5);
+        transform: translateY(0px);
     }
 
     canvas {

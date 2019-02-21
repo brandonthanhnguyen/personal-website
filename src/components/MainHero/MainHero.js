@@ -8,6 +8,16 @@ import Particles from 'react-particles-js';
 import PlaceholderMountains from '../../img/MainHero/placeholder_mountains.jpg';
 
 class MainHero extends Component {
+
+  componentDidMount() {
+    var overlay = document.getElementById('hero-overlay')
+
+    setTimeout(function() {
+        overlay.style.transform = "translateY(0)";
+        overlay.style.opacity = 100;
+    }, (500));
+  }
+
   render() {
     return (
       <div className="main-hero container-fluid">
@@ -77,7 +87,7 @@ class MainHero extends Component {
                       }
                     }
                 }} style={{backgroundImage: 'url(' + PlaceholderMountains + ')'}}/>
-            <div className="col-md-4 main-hero-col2">
+            <div id="hero-overlay" className="col-md-4 main-hero-col2">
                 <div className="main-hero-text-container">
                     <h1 className="main-hero-subtitle hero-subtitle1">This is me,</h1>
                     <h1 className="main-hero-title">Brandon Nguyen</h1>

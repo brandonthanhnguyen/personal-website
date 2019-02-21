@@ -24,16 +24,22 @@ class AboutMe extends Component {
         if (this.isInViewport(element)) {
             var progressBars = document.getElementsByClassName("progress-bar");
 
-            var badges = document.getElementsByClassName("about-me-badge");
-
             setTimeout(function() {
                 for (var i = 0; i < progressBars.length; i++) {
                     if (progressBars[i].style.width === "0%") {
                         progressBars[i].style.width = progressBars[i].innerHTML;
                     }
                 }
+            }, (500));
+        }
 
-                for (var i = 0; i < badges.length; i++) {
+        element = document.getElementById("aws-badge");
+
+        if (this.isInViewport(element)) {
+            var badges = document.getElementsByClassName("about-me-badge");
+
+            setTimeout(function() {
+                for (var  i = 0; i < badges.length; i++) {
                     if (badges[i].style.opacity === '') {
                         badges[i].style.opacity = 100;
                     }
@@ -104,7 +110,7 @@ class AboutMe extends Component {
                             </div>
                         </div>
                         <div id="badges-container" className="badges-container">
-                            <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank" rel="noopener noreferrer"><div className="about-me-badge" style={{backgroundImage: 'url(' + awsBadge + ')'}} /></a>
+                            <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank" rel="noopener noreferrer"><div className="about-me-badge" id="aws-badge" style={{backgroundImage: 'url(' + awsBadge + ')'}} /></a>
                             <a href="https://icagile.com/" target="_blank" rel="noopener noreferrer"><div className="about-me-badge" style={{backgroundImage: 'url(' + icpBadge + ')'}} /></a>
                         </div>
                     </div>
