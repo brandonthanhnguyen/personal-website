@@ -72,7 +72,7 @@ class AboutMe extends Component {
                                 marginTop: '2rem'
                             }}>PERSONAL INTERESTS</h1>
                         <p className="app-section-body-text">In my spare time, I like to stay active through running and playing sports such as basketball and football.</p>
-                        <p className="app-section-body-text">I am also an avid traveller who dreams of seeing all of the world's major attractions (cliché I know). My last trip was a small tour around Western Europe and I plan to visit Southeast Asia next.</p>
+                        <p className="app-section-body-text">I am also an avid traveller who dreams of seeing all of the world's major attractions. My last trip was a small tour around Western Europe and I plan to visit Southeast Asia next.</p>
                         <p className="app-section-body-text about-last">I sometimes dabble in other forms of digital media.&nbsp;<a href="/">Check out some of my work!</a>
                         </p>
                     </div>
