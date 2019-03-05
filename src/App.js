@@ -13,7 +13,7 @@ import scrollToComponent from 'react-scroll-to-component';
 class App extends Component {
     scrollTo = (ref) => {
         if (ref === "home") {
-            scrollToComponent(this.refs.home, {align: 'top'});
+            scrollToComponent(this.refs.home, {align: 'bottom'});
         }
 
         if (ref === "about") {
