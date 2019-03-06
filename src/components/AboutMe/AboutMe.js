@@ -59,7 +59,7 @@ class AboutMe extends Component {
     }
 
     render() {
-        return (<div className="about-me">
+        return (<div className="about-me" id="section-about-me">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-6">

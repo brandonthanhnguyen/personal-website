@@ -16,12 +16,12 @@
 }
 
 .app-section-body-text {
-    color: rgb(255,255,255,0.6);
+    color: rgba(255,255,255,0.6);
     line-height: 1.75rem;
 }
 
 .section-divider {
-    background-color: rgb(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.6);
     margin: 0 10.8rem 0 10.8rem;
 }
 

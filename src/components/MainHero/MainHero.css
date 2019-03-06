@@ -20,7 +20,7 @@ canvas {
     position: absolute;
     display: flex;
     align-items: center;
-    background: rgb(40,44,52,0.75);
+    background: rgba(40,44,52,0.75);
     transform: translateY(-750px);
     opacity: 0;
     transition: 2s;
@@ -43,7 +43,7 @@ canvas {
 .main-hero-text {
     line-height: 25px;
     margin-bottom: 2rem;
-    color: rgb(255,255,255,0.6);
+    color: rgba(255,255,255,0.6);
 }
 
 .main-hero-text-container {
@@ -92,7 +92,7 @@ canvas {
     }
 
     .main-hero-col2 {
-        background: rgb(40,44,52,0.5);
+        background: rgba(40,44,52,0.5);
         transform: translateY(0px);
     }
 
@@ -105,7 +105,7 @@ canvas {
     }
 
     .main-hero-text {
-        color: rgb(255,255,255,0.6);
+        color: rgba(255,255,255,0.6);
     }
 }
 

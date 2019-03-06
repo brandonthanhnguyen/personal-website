@@ -31,11 +31,9 @@ class NavigationBar extends Component {
             </span>
           </Nav>
           <Nav>
-            <Nav.Link className="nav-text" onClick={() => this.scroll("home")}>HOME</Nav.Link>
-            <Nav.Link className="nav-text" onClick={() => this.scroll("about")}>ABOUT</Nav.Link>
-            <Nav.Link className="nav-text" onClick={() => this.scroll("experience")}>EXPERIENCE</Nav.Link>
-            <Nav.Link className="nav-text" >PORTFOLIO</Nav.Link>
-            <Nav.Link className="nav-text">CONTACT</Nav.Link>
+            <Nav.Link className="nav-text" href="/">HOME</Nav.Link>
+            <Nav.Link className="nav-text" href="/portfolio" disabled="true">PORTFOLIO</Nav.Link>
+            <Nav.Link className="nav-text" href="/travel" disabled="true">TRAVEL</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

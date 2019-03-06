@@ -13,14 +13,14 @@ class MainHero extends Component {
     var overlay = document.getElementById('hero-overlay')
 
     setTimeout(function() {
-        overlay.style.transform = "translateY(0.35px)";
+        overlay.style.transform = "translateY(0)";
         overlay.style.opacity = 100;
     }, (500));
   }
 
   render() {
     return (
-      <div className="main-hero container-fluid">
+      <div className="main-hero container-fluid" id="section-main-hero">
         <div className="row row-eq-height hero-row">
             <Particles className="col-md-12 main-hero-col1" params={{
                     "particles": {
