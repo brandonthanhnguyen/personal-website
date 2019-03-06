@@ -13,7 +13,7 @@ class MainHero extends Component {
     var overlay = document.getElementById('hero-overlay')
 
     setTimeout(function() {
-        overlay.style.transform = "translateY(0)";
+        overlay.style.transform = "translateY(0.35px)";
         overlay.style.opacity = 100;
     }, (500));
   }
