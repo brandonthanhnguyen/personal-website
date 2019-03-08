@@ -3,16 +3,21 @@ import React, { Component } from 'react';
 import './Travel.css';
 
 import Map from './Map/Map.js';
+import {Helmet} from "react-helmet";
+import Carousel from 'react-bootstrap/Carousel';
 
 class Travel extends Component {
     render() {
       return (
         <div className="travel container-fluid">
+            <Helmet>
+                <title>Brandon Nguyen | Travel</title>
+            </Helmet>
+
             <div className="row">
                 <div className="col-md-3">
-                    <h1 className="app-section-title">TRAVEL</h1>
                     <p className="app-section-body-text">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisl tellus, scelerisque eu consectetur eget, ullamcorper sit amet urna. Suspendisse a neque cursus, malesuada est in, mollis risus. In hac habitasse platea dictumst. Proin nec dolor sit amet risus accumsan volutpat quis id ipsum. Phasellus libero dolor, lacinia vel gravida nec, posuere eu mauris. Vivamus viverra metus vitae nunc pellentesque bibendum. Cras facilisis viverra finibus. Donec laoreet libero dui. Donec sit amet venenatis nibh, non suscipit erat. Ut scelerisque pulvinar neque non hendrerit. Nam eu tellus sed nulla dapibus rutrum vel eu arcu. Mauris venenatis tristique magna in venenatis.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet dui id pellentesque commodo. Donec sed massa mi. Proin dictum arcu eu felis mattis cursus. Nulla eget eros et nulla fermentum condimentum non sed mi. Nullam ante turpis, tempor non orci vitae, cursus imperdiet dolor. Duis accumsan auctor dolor sed sollicitudin. Pellentesque ut arcu ullamcorper eros malesuada venenatis. In iaculis scelerisque felis. Aliquam tempus vehicula nibh sit amet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget massa eu purus porttitor placerat et vitae felis. 
                     </p>
                 </div>
                 <div className="col-md-9">

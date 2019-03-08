@@ -100,7 +100,7 @@ class Map extends Component {
                   height: "auto",
                 }}
                 >
-                <ZoomableGroup center={[x,y]} zoom={zoom} disablePanning>
+                <ZoomableGroup center={[x,y]} zoom={zoom}>
                   <Geographies geography={world_map}>
                     {(geographies, projection) =>
                       geographies.map((geography, i) => geography.id !== "010" && (
