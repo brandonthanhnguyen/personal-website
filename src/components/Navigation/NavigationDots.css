@@ -24,6 +24,7 @@
     /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    outline: 0;
 }
 
 #vertical-navigation a:hover {
