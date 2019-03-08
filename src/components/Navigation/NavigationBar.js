@@ -33,7 +33,7 @@ class NavigationBar extends Component {
           <Nav>
             <Nav.Link className="nav-text" href="/">HOME</Nav.Link>
             <Nav.Link className="nav-text" href="/portfolio" disabled="true">PORTFOLIO</Nav.Link>
-            <Nav.Link className="nav-text" href="/travel" disabled="true">TRAVEL</Nav.Link>
+            <Nav.Link className="nav-text" href="/travel">TRAVEL</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -10,7 +10,7 @@ import PlaceholderMountains from '../../img/MainHero/placeholder_mountains.jpg';
 class MainHero extends Component {
 
   componentDidMount() {
-    var overlay = document.getElementById('hero-overlay')
+    var overlay = document.getElementById('hero-overlay');
 
     setTimeout(function() {
         overlay.style.transform = "translateY(0)";

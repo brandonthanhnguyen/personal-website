@@ -11,6 +11,8 @@ import MainHero from './components/MainHero/MainHero.js';
 import AboutMe from './components/AboutMe/AboutMe.js';
 import Experience from './components/Experience/Experience.js';
 
+import Travel from './components/Travel/Travel.js';
+
 import scrollToComponent from 'react-scroll-to-component';
 
 import $ from 'jquery';
@@ -18,12 +20,16 @@ import $ from 'jquery';
 class App extends Component {
 
     componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
-        document.getElementById("dot-introduction").style.backgroundColor = "#007bff";
+        if (window.location.pathname === "/") {
+            window.addEventListener('scroll', this.handleScroll);
+            document.getElementById("dot-introduction").style.backgroundColor = "#007bff";
+        }
     }
 
     componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
+        if (window.location.pathname === "/") {
+            window.removeEventListener('scroll', this.handleScroll);
+        }
     }
 
     handleScroll = () => {
@@ -79,6 +85,8 @@ class App extends Component {
                 <Route exact path="/" ref="introduction" component={MainHero}/>
                 <Route exact path="/" ref="about" component={AboutMe}/>
                 <Route exact path="/" ref="experience" component={Experience}/>
+
+                <Route exact path="/travel" component={Travel}/>
 
                 <PageFooter/>
             </div>
