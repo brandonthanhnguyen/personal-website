@@ -22,7 +22,7 @@ class Experience extends Component {
                                     backgroundSize: '60%'
                                 }}/>
                             <Card.Body>
-                                <Card.Title>Technical Consultant</Card.Title>
+                                <Card.Title>Software Developer</Card.Title>
                                 <Card.Subtitle>IBM</Card.Subtitle>
                                 <Card.Subtitle>July 2018 - Present</Card.Subtitle>
                             </Card.Body>
