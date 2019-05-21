@@ -66,7 +66,7 @@ class AboutMe extends Component {
                         <h1 className="app-section-title">ABOUT ME</h1>
                         <p className="app-section-body-text">Hey everyone!</p>
                         <p className="app-section-body-text">I am a 23-year-old from North Carolina living in Cumberland, Maryland.</p>
-                        <p className="app-section-body-text">I currently work as a technical consultant for IBM Global Business Services and received my B.S. in Computer Science from NC State University in 2018.</p>
+                        <p className="app-section-body-text">I currently work as a software developer for IBM Global Business Services and received my B.S. in Computer Science from NC State University in 2018.</p>
                         <p className="app-section-body-text">My main areas of focus are web development and UI/UX design. I strive to create visually-appealing applications that are both fully functional and intuitive. I also maintain a diverse skillset and have experience working in all areas of the stack including database management, Java development, cloud applications, etc.</p>
                         <h1 className="app-section-title" style={{
                                 marginTop: '2rem'
