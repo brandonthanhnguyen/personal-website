@@ -5,7 +5,7 @@ import './MainHero.css';
 import Button from 'react-bootstrap/Button';
 import Particles from 'react-particles-js';
 
-import PlaceholderMountains from '../../img/MainHero/placeholder_mountains.jpg';
+import HeroImage from '../../img/MainHero/hero_image.jpg';
 
 class MainHero extends Component {
 
@@ -22,71 +22,7 @@ class MainHero extends Component {
     return (
       <div className="main-hero container-fluid" id="section-main-hero">
         <div className="row row-eq-height hero-row">
-            <Particles className="col-md-12 main-hero-col1" params={{
-                    "particles": {
-                      "number": {
-                        "value": 75,
-                        "density": {
-                          "enable": true,
-                          "value_area": 1000
-                        }
-                      },
-                      "color": {
-                        "value": "#d3d3d3"
-                      },
-                      "shape": {
-                        "type": "circle",
-                        "stroke": {
-                          "width": 0,
-                          "color": "#d3d3d3"
-                        },
-                        "polygon": {
-                          "nb_sides": 5
-                        }
-                      },
-                      "opacity": {
-                        "value": 0.5,
-                        "random": true,
-                        "anim": {
-                          "enable": true,
-                          "speed": 0.5,
-                          "opacity_min": 0.1,
-                          "sync": false
-                        }
-                      },
-                      "size": {
-                        "value": 3,
-                        "random": true,
-                        "anim": {
-                          "enable": false,
-                          "speed": 40,
-                          "size_min": 0.1,
-                          "sync": false
-                        }
-                      },
-                      "line_linked": {
-                        "enable": true,
-                        "distance": 150,
-                        "color": "#d3d3d3",
-                        "opacity": 0.4,
-                        "width": 1
-                      },
-                      "move": {
-                        "enable": true,
-                        "speed": 6,
-                        "direction": "none",
-                        "random": false,
-                        "straight": false,
-                        "out_mode": "out",
-                        "bounce": false,
-                        "attract": {
-                          "enable": false,
-                          "rotateX": 600,
-                          "rotateY": 1200
-                        }
-                      }
-                    }
-                }} style={{backgroundImage: 'url(' + PlaceholderMountains + ')'}}/>
+            <div className="col-md-12 main-hero-col1 hero-image-container" style={{backgroundImage: 'url(' + HeroImage + ')'}}/>
             <div id="hero-overlay" className="col-md-4 main-hero-col2">
                 <div className="main-hero-text-container">
                     <h1 className="main-hero-subtitle hero-subtitle1">This is me,</h1>
