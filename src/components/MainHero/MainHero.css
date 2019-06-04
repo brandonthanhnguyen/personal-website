@@ -7,7 +7,7 @@
     height: 95vh !important;
 }
 
-.hero-image-container {
+canvas {
     height: 95vh !important;
     background-attachment: fixed;
     background-position: 50% 30%;

@@ -5,7 +5,7 @@ import './MainHero.css';
 import Button from 'react-bootstrap/Button';
 import Particles from 'react-particles-js';
 
-import HeroImage from '../../img/MainHero/hero_image.jpg';
+import HeroImage from '../../img/MainHero/hero_image.png';
 
 class MainHero extends Component {
 
@@ -22,7 +22,7 @@ class MainHero extends Component {
     return (
       <div className="main-hero container-fluid" id="section-main-hero">
         <div className="row row-eq-height hero-row">
-            <div className="col-md-12 main-hero-col1 hero-image-container" style={{backgroundImage: 'url(' + HeroImage + ')'}}/>
+            <canvas className="col-md-12 main-hero-col1" style={{backgroundImage: 'url(' + HeroImage + ')'}}/>
             <div id="hero-overlay" className="col-md-4 main-hero-col2">
                 <div className="main-hero-text-container">
                     <h1 className="main-hero-subtitle hero-subtitle1">This is me,</h1>
