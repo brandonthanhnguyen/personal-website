@@ -3,9 +3,8 @@ import React, { Component } from 'react';
 import './MainHero.css';
 
 import Button from 'react-bootstrap/Button';
-import Particles from 'react-particles-js';
 
-import HeroImage from '../../img/MainHero/hero_image.png';
+import HeroImage from '../../img/MainHero/hero_image.jpg';
 
 class MainHero extends Component {
 
