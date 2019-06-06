@@ -34,11 +34,11 @@ class PageFooter extends Component {
                     <div className="page-footer-title">
                         <h3>Resources Used</h3>
                     </div>
-                    <p className="page-footer-text">
-                        Neon Social Media Icons - Vector Illustration by <a href="https://www.vecteezy.com/vector-art/142829-neon-social-media-logos" target="_blank" rel="noopener noreferrer">vecteezy.com</a>
+					<p className="page-footer-text">
+                        Hero Image by <a href="https://www.cameronawalsh.com/" target="_blank" rel="noopener noreferrer">Cameron Walsh Photography</a>
                     </p>
                     <p className="page-footer-text">
-                        Vertical Fixed Navigation - <a href="https://codepen.io/creotip/pen/BoOwBr" target="_blank" rel="noopener noreferrer">Codepen</a>
+                        Neon Social Media Icons - Vector Illustration by <a href="https://www.vecteezy.com/vector-art/142829-neon-social-media-logos" target="_blank" rel="noopener noreferrer">vecteezy.com</a>
                     </p>
                     <p className="page-footer-text">
                         <a href="https://fonts.google.com/specimen/Poppins" target="_blank" rel="noopener noreferrer">Poppins Font</a>
