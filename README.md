@@ -10,4 +10,5 @@ https://nguyenbrandon.com
 * React
 * Bootstrap
 * HTML/CSS/JavaScript
+* jQuery
 * GitHub Pages Hosting
