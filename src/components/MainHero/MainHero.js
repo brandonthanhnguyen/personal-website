@@ -4,7 +4,7 @@ import './MainHero.css';
 
 import Button from 'react-bootstrap/Button';
 
-import HeroImage from '../../img/MainHero/hero_image.jpg';
+import HeroImage from '../../img/MainHero/hero_image_compressed.jpg';
 
 class MainHero extends Component {
 
