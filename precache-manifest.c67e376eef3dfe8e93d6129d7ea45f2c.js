@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/icon_bootstrap.584d9f32.png"
   },
   {
-    "revision": "8d93fd42d3a2179245ee",
-    "url": "/static/css/main.29d87232.chunk.css"
+    "revision": "9cb5b4bbf7d02f838e19",
+    "url": "/static/css/main.58a84b45.chunk.css"
   },
   {
-    "revision": "6340ec09634c3741667d",
-    "url": "/static/js/1.6340ec09.chunk.js"
+    "revision": "9c2128331357eed130e7",
+    "url": "/static/js/1.9c212833.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/icon_react.82a318cc.png"
   },
   {
-    "revision": "8d93fd42d3a2179245ee",
-    "url": "/static/js/main.8d93fd42.chunk.js"
+    "revision": "9cb5b4bbf7d02f838e19",
+    "url": "/static/js/main.9cb5b4bb.chunk.js"
   },
   {
     "revision": "c502658a509d27b53679b3ef73c0d82f",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/static/media/Hearth Stone.a829eb03.otf"
   },
   {
-    "revision": "159259d852b9f9cbb38a38af440d5f7f",
+    "revision": "41fffcc7b232deafdde8168f3aea40b7",
     "url": "/index.html"
   }
 ];
