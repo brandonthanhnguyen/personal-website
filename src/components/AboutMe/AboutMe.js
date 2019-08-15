@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 import './AboutMe.css';
 
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import awsBadge from '../../img/AboutMe/badge_aws.png'
-import icpBadge from '../../img/AboutMe/badge_icp.svg'
+import awsBadge from '../../assets/images/AboutMe/badge_aws.png'
+import icpBadge from '../../assets/images/AboutMe/badge_icp.svg'
 
 import $ from 'jquery';
 
