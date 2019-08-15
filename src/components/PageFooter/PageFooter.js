@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 import './PageFooter.css';
 
-import ReactIcon from '../../img/PageFooter/icon_react.png';
-import BootstrapIcon from '../../img/PageFooter/icon_bootstrap.png';
-import GithubIcon from '../../img/PageFooter/icon_github_light.png';
-import NodeJsIcon from '../../img/PageFooter/icon_node_js.png';
+import ReactIcon from '../../assets/images/PageFooter/icon_react.png';
+import BootstrapIcon from '../../assets/images/PageFooter/icon_bootstrap.png';
+import GithubIcon from '../../assets/images/PageFooter/icon_github_light.png';
+import NodeJsIcon from '../../assets/images/PageFooter/icon_node_js.png';
 
 class PageFooter extends Component {
   render() {

@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 
 import './Experience.css';
 
-import logoIBM from '../../img/Experience/logo_ibm.png'
-import logoNCSU from '../../img/Experience/logo_ncsu.png'
-import logoWingSwept from '../../img/Experience/logo_wingswept.jpg'
+import logoIBM from '../../assets/images/Experience/logo_ibm.png'
+import logoNCSU from '../../assets/images/Experience/logo_ncsu.png'
+import logoWingSwept from '../../assets/images/Experience/logo_wingswept.jpg'
 
 import Card from 'react-bootstrap/Card';
 

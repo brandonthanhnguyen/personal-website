@@ -4,10 +4,10 @@ import './NavigationBar.css';
 
 import { Navbar, Nav } from 'react-bootstrap';
 
-import LinkedInLogo from '../../img/Navigation/neon_linkedin.png'
-import FacebookLogo from '../../img/Navigation/neon_facebook.png'
-import TwitterLogo from '../../img/Navigation/neon_twitter.png'
-import InstagramLogo from '../../img/Navigation/neon_instagram.png'
+import LinkedInLogo from '../../assets/images/Navigation/neon_linkedin.png'
+import FacebookLogo from '../../assets/images/Navigation/neon_facebook.png'
+import TwitterLogo from '../../assets/images/Navigation/neon_twitter.png'
+import InstagramLogo from '../../assets/images/Navigation/neon_instagram.png'
 
 class NavigationBar extends Component {
 
