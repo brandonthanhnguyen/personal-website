@@ -40,12 +40,6 @@ class PageFooter extends Component {
                     <p className="page-footer-text">
                         Neon Social Media Icons - Vector Illustration by <a href="https://www.vecteezy.com/vector-art/142829-neon-social-media-logos" target="_blank" rel="noopener noreferrer">vecteezy.com</a>
                     </p>
-                    <p className="page-footer-text">
-                        <a href="https://fonts.google.com/specimen/Poppins" target="_blank" rel="noopener noreferrer">Poppins Font</a>
-                    </p>
-                    <p className="page-footer-text">
-                        <a href="https://www.dafont.com/hearth-stone.font" target="_blank" rel="noopener noreferrer">Hearth Stone Font</a>
-                    </p>
                 </div>
             </div>
             <div className="row">
