@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/icon_bootstrap.584d9f32.png"
   },
   {
-    "revision": "f85c7755f57749c55171",
+    "revision": "ea21629787a4f28a30a8",
     "url": "/static/css/main.558c656c.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/icon_react.82a318cc.png"
   },
   {
-    "revision": "f85c7755f57749c55171",
-    "url": "/static/js/main.f85c7755.chunk.js"
+    "revision": "ea21629787a4f28a30a8",
+    "url": "/static/js/main.ea216297.chunk.js"
   },
   {
     "revision": "c502658a509d27b53679b3ef73c0d82f",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/static/media/Hearth Stone.a829eb03.otf"
   },
   {
-    "revision": "0253920d6855e6b44c24b838e991e8e4",
+    "revision": "d54e8f995f41479a274f88ec6b983999",
     "url": "/index.html"
   }
 ];
