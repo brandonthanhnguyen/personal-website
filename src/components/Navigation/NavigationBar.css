@@ -1,5 +1,5 @@
 .nav-logo {
-  font-family: 'Hearth Stone';
+  font-family: "Hearth Stone";
   font-size: 25px;
   font-weight: 600;
 }
@@ -9,12 +9,12 @@
 }
 
 .nav-social-media {
-  padding: 0.5rem 0 0.5rem 0 !important;
+  padding-bottom: 0.5rem;
 }
 
 .nav-icon {
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
   transition: 0.15s;
 }
 
@@ -48,7 +48,4 @@
   .navbar {
     padding: 0.5rem 1rem !important;
   }
-}
-
-@media all and (max-width: 768px) {
 }
