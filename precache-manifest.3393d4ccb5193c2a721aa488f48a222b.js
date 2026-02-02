@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "584d9f322f08684db8ff2217731e474f",
-    "url": "/static/media/icon_bootstrap.584d9f32.png"
+    "revision": "7db629692156539b28cd",
+    "url": "/static/css/main.eaeae8d2.chunk.css"
   },
   {
-    "revision": "ea21629787a4f28a30a8",
-    "url": "/static/css/main.558c656c.chunk.css"
+    "revision": "7db629692156539b28cd",
+    "url": "/static/js/main.7db62969.chunk.js"
   },
   {
-    "revision": "9c2128331357eed130e7",
-    "url": "/static/js/1.9c212833.chunk.js"
+    "revision": "a13f8d3f6d645d8bfb6f",
+    "url": "/static/js/1.a13f8d3f.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,40 +20,32 @@ self.__precacheManifest = [
     "url": "/static/media/neon_linkedin.471a7345.png"
   },
   {
-    "revision": "4aa5b232f2f4206697e97e5c2e65dc5d",
-    "url": "/static/media/neon_facebook.4aa5b232.png"
-  },
-  {
-    "revision": "5e0d59e1b53c1e8ee86e2a052546d104",
-    "url": "/static/media/neon_twitter.5e0d59e1.png"
-  },
-  {
-    "revision": "2cfd00d174cc4bcfc99bbe54e8dd1f96",
-    "url": "/static/media/neon_instagram.2cfd00d1.png"
-  },
-  {
     "revision": "82a318ccea22a8af9fc4590f41df9238",
     "url": "/static/media/icon_react.82a318cc.png"
   },
   {
-    "revision": "ea21629787a4f28a30a8",
-    "url": "/static/js/main.ea216297.chunk.js"
+    "revision": "584d9f322f08684db8ff2217731e474f",
+    "url": "/static/media/icon_bootstrap.584d9f32.png"
   },
   {
     "revision": "c502658a509d27b53679b3ef73c0d82f",
     "url": "/static/media/icon_node_js.c502658a.png"
   },
   {
-    "revision": "8f25fd41ba8c17473cd9a108c38901b9",
-    "url": "/static/media/hero_image_compressed.8f25fd41.jpg"
+    "revision": "843f36a1f5189707fa0d9331acd6f6d8",
+    "url": "/static/media/hero_image.843f36a1.jpeg"
   },
   {
     "revision": "64ddadaf105df27bc2871a443ba4893a",
     "url": "/static/media/badge_aws.64ddadaf.png"
   },
   {
-    "revision": "28cb1c86b594b74772cbd317f40343e7",
-    "url": "/static/media/badge_icp.28cb1c86.svg"
+    "revision": "af6b078a4d437679c9df977d8541dc2e",
+    "url": "/static/media/badge_icp.af6b078a.svg"
+  },
+  {
+    "revision": "6042995305792e3b47829832ba69758e",
+    "url": "/static/media/logo_ara.60429953.png"
   },
   {
     "revision": "35121215133da6eec098ebff690cc5a5",
@@ -68,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/Hearth Stone.a829eb03.otf"
   },
   {
-    "revision": "d54e8f995f41479a274f88ec6b983999",
+    "revision": "c8cc1784021cc73d76e21ef82599da17",
     "url": "/index.html"
   }
 ];
