@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.01b187bf.chunk.css",
-  "main.js": "/static/js/main.1a19deaf.chunk.js",
-  "main.js.map": "/static/js/main.1a19deaf.chunk.js.map",
+  "main.js": "/static/js/main.95f0bd9f.chunk.js",
+  "main.js.map": "/static/js/main.95f0bd9f.chunk.js.map",
   "static/js/1.a13f8d3f.chunk.js": "/static/js/1.a13f8d3f.chunk.js",
   "static/js/1.a13f8d3f.chunk.js.map": "/static/js/1.a13f8d3f.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -19,6 +19,6 @@
   "static/media/App.css": "/static/media/Hearth Stone.a829eb03.otf",
   "static/css/main.01b187bf.chunk.css.map": "/static/css/main.01b187bf.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.34597c321f2997d65dfbd7079ed26991.js": "/precache-manifest.34597c321f2997d65dfbd7079ed26991.js",
+  "precache-manifest.7bcdb200a8d4c1946b70968448a395c0.js": "/precache-manifest.7bcdb200a8d4c1946b70968448a395c0.js",
   "service-worker.js": "/service-worker.js"
 }
