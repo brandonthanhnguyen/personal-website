@@ -6,9 +6,9 @@ https://nguyenbrandon.com
 
 ### Tech Specs
 
-* Node.js
-* React
-* Bootstrap
-* HTML/CSS/JavaScript
-* jQuery
-* GitHub Pages Hosting
+- Node.js
+- React
+- Bootstrap
+- HTML/CSS/JavaScript
+- jQuery
+- GitHub Pages Hosting

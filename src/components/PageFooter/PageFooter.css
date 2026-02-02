@@ -1,41 +1,41 @@
 .page-footer {
-    background-color: #000410 !important;
-    padding: 7.5rem 0 7.5rem 0;
+  background-color: #000410 !important;
+  padding: 7.5rem 0 7.5rem 0;
 }
 
 .page-footer-title h3 {
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
 }
 
 .page-footer-text {
-    color: #777;
+  color: #777;
 }
 
 .copyright {
-    margin-top: 1rem;
-    font-style: italic;
+  margin-top: 1rem;
+  font-style: italic;
 }
 
 footer .container-fluid {
-    max-width: 1170px;
+  max-width: 1170px;
 }
 
 .page-footer-icons {
-    display: flex;
-    margin-bottom: 1rem;
-    justify-content: flex-start;
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
 }
 
 .footer-icon {
-    height: 2.5rem;
-    width: 2.5rem;
-    margin-right: 1rem;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right: 1rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media all and (max-width: 1200px) {
@@ -45,11 +45,11 @@ footer .container-fluid {
 }
 
 @media all and (max-width: 768px) {
-    .page-footer {
-        padding: 4.5rem 0 4.5rem 0 !important;
-    }
+  .page-footer {
+    padding: 4.5rem 0 4.5rem 0 !important;
+  }
 
-    .page-footer-col1 {
-        margin-bottom: 1rem;
-    }
+  .page-footer-col1 {
+    margin-bottom: 1rem;
+  }
 }

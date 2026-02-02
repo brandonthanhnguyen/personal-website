@@ -1,75 +1,75 @@
 .main-hero {
-    background: white;
+  background: white;
 }
 
 .main-hero-col1 {
-    padding: 0 !important;
-    height: 95vh !important;
+  padding: 0 !important;
+  height: 95vh !important;
 }
 
 canvas {
-    height: 95vh !important;
-    background-attachment: fixed;
-    background-position: 50% 30%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 95vh !important;
+  background-attachment: fixed;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-hero-col2 {
-    height: 95vh;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    background: rgba(40,44,52,0.75);
-    transform: translateY(-750px);
-    opacity: 0;
-    transition: 2s;
+  height: 95vh;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background: rgba(40, 44, 52, 0.75);
+  transform: translateY(-750px);
+  opacity: 0;
+  transition: 2s;
 }
 
 .main-hero-subtitle {
-    font-size: 30px;
-    font-weight: 100;
-    color: white;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
 }
 
 .main-hero-title {
-    font-family: 'Hearth Stone';
-    font-size: 55.5px;
-    font-weight: 600;
-    margin-bottom: 2.25rem;
-    color: khaki;
+  font-family: "Hearth Stone";
+  font-size: 55.5px;
+  font-weight: 600;
+  margin-bottom: 2.25rem;
+  color: khaki;
 }
 
 .main-hero-text {
-    line-height: 25px;
-    margin-bottom: 2rem;
-    color: rgba(255,255,255,0.6);
+  line-height: 25px;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .main-hero-text-container {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 .hero-subtitle2 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .hero-subtitle1 {
-    margin-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .main-hero-button {
-    border-radius: 30px;
-    border: 2px solid #007bff;
+  border-radius: 30px;
+  border: 2px solid #007bff;
 }
 
 .hero-row {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .hero-emphasis {
-    color: white;
-    font-weight: 600;
+  color: white;
+  font-weight: 600;
 }
 
 @media all and (max-width: 1200px) {
@@ -79,78 +79,88 @@ canvas {
 }
 
 @media all and (max-width: 767px) {
-    .hero-subtitle1 {
-        margin-top: 2rem;
-    }
+  .hero-subtitle1 {
+    margin-top: 2rem;
+  }
 
-    .hero-subtitle2 {
-        margin-top: 1rem;
-    }
+  .hero-subtitle2 {
+    margin-top: 1rem;
+  }
 
-    .main-hero-button {
-        margin-bottom: 2.5rem;
-    }
+  .main-hero-button {
+    margin-bottom: 2.5rem;
+  }
 
-    .main-hero-col2 {
-        background: rgba(40,44,52,0.5);
-        transform: translateY(0px);
-    }
+  .main-hero-col2 {
+    background: rgba(40, 44, 52, 0.5);
+    transform: translateY(0px);
+  }
 
-    canvas {
-        background-attachment: scroll;
-    }
+  canvas {
+    background-attachment: scroll;
+  }
 
-    .main-hero-title {
-        margin-top: 2rem;
-    }
+  .main-hero-title {
+    margin-top: 2rem;
+  }
 
-    .main-hero-text {
-        color: rgba(255,255,255,0.6);
-    }
+  .main-hero-text {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 @media all and (max-height: 750px) and (max-width: 400px) {
-    canvas, .main-hero-col1, .main-hero-col2 {
-        height: 100vh !important;
-    }
+  canvas,
+  .main-hero-col1,
+  .main-hero-col2 {
+    height: 100vh !important;
+  }
 
-    .hero-subtitle1 {
-        margin-top: 2rem !important;
-    }
+  .hero-subtitle1 {
+    margin-top: 2rem !important;
+  }
 }
 
 @media all and (max-width: 321px) {
-    canvas, .main-hero-col1, .main-hero-col2 {
-        height: 135vh !important;
-    }
+  canvas,
+  .main-hero-col1,
+  .main-hero-col2 {
+    height: 135vh !important;
+  }
 
-    .hero-subtitle1 {
-        margin-top: 1.75rem !important;
-    }
+  .hero-subtitle1 {
+    margin-top: 1.75rem !important;
+  }
 }
 
 /* Landscape orientation */
 
 @media all and (max-height: 425px) and (min-width: 550px) {
-    canvas, .main-hero-col1, .main-hero-col2 {
-        height: 100vw !important;
-    }
+  canvas,
+  .main-hero-col1,
+  .main-hero-col2 {
+    height: 100vw !important;
+  }
 
-    canvas {
-        background-attachment: scroll;
-    }
+  canvas {
+    background-attachment: scroll;
+  }
 }
 
 /* Tablets */
 
 @media all and (min-height: 1000px) {
-    canvas, .main-hero-col1, .main-hero-col2 {
-        height: 85vh !important;
-    }
+  canvas,
+  .main-hero-col1,
+  .main-hero-col2 {
+    height: 85vh !important;
+  }
 }
 
 @media all and (min-height: 1280px) {
-    canvas, .main-hero-col1, .main-hero-col2 {
-        height: 67.5vh !important;
-    }
+  canvas,
+  .main-hero-col1,
+  .main-hero-col2 {
+    height: 67.5vh !important;
+  }
 }
