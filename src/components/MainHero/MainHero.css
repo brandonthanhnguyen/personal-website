@@ -174,4 +174,8 @@ canvas {
   .main-hero-title {
     font-size: 40px;
   }
+
+  .hero-button {
+    font-size: 10px;
+  }
 }

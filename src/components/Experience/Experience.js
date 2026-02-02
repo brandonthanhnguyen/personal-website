@@ -23,7 +23,6 @@ class Experience extends Component {
                   className="card-image"
                   style={{
                     backgroundImage: "url(" + logoARA + ")",
-                    backgroundSize: "40%",
                   }}
                 />
                 <Card.Body>
@@ -59,7 +58,7 @@ class Experience extends Component {
                   className="card-image"
                   style={{
                     backgroundImage: "url(" + logoIBM + ")",
-                    backgroundSize: "60%",
+                    padding: "2.5rem",
                   }}
                 />
                 <Card.Body>
@@ -86,7 +85,6 @@ class Experience extends Component {
                   className="card-image"
                   style={{
                     backgroundImage: "url(" + logoWingSwept + ")",
-                    backgroundSize: "60%",
                   }}
                 />
                 <Card.Body>
@@ -110,7 +108,6 @@ class Experience extends Component {
                   className="card-image"
                   style={{
                     backgroundImage: "url(" + logoNCSU + ")",
-                    backgroundSize: "35%",
                   }}
                 />
                 <Card.Body>
