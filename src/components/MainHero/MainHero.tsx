@@ -27,7 +27,9 @@ const MainHero: React.FC = () => {
         <div id="hero-overlay" className="col-md-4 main-hero-col2">
           <div className="main-hero-text-container">
             <h1 className="main-hero-subtitle hero-subtitle1">This is me,</h1>
-            <h1 className="main-hero-title">Brandon Nguyen</h1>
+            <h1 className="main-hero-title">
+              <span className="terminal-prompt">{"> "}</span>Brandon Nguyen
+            </h1>
             <h1 className="main-hero-subtitle hero-subtitle2">
               Developer & Designer
             </h1>

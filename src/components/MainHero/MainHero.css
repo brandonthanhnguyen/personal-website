@@ -20,7 +20,7 @@ canvas {
   position: absolute;
   display: flex;
   align-items: center;
-  background: rgba(40, 44, 52, 0.75);
+  background: rgba(0, 0, 0, 0.7);
   transform: translateY(-750px);
   opacity: 0;
   transition: 2s;
@@ -33,11 +33,27 @@ canvas {
 }
 
 .main-hero-title {
-  font-family: "Hearth Stone";
-  font-size: 55.5px;
+  font-family: "JetBrains Mono", "Courier New", monospace;
+  font-size: 44px;
   font-weight: 600;
   margin-bottom: 2.25rem;
   color: khaki;
+  letter-spacing: 0.02em;
+}
+
+.main-hero-title::after {
+  content: "_";
+  color: khaki;
+  animation: cursor-blink 1.2s step-end infinite;
+}
+
+.terminal-prompt {
+  opacity: 0.75;
+}
+
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
 .main-hero-text {
@@ -92,7 +108,7 @@ canvas {
   }
 
   .main-hero-col2 {
-    background: rgba(40, 44, 52, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     transform: translateY(0px);
   }
 
@@ -172,10 +188,57 @@ canvas {
   }
 
   .main-hero-title {
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .hero-button {
     font-size: 10px;
+  }
+}
+
+@media all and (max-height: 750px) and (max-width: 767px) {
+  canvas,
+  .main-hero-col1,
+  .main-hero-col2 {
+    height: 100vh !important;
+  }
+
+  .main-hero-col2 {
+    overflow-y: auto;
+    align-items: flex-start;
+  }
+
+  .main-hero-text-container {
+    padding: 1.25rem 1rem;
+  }
+
+  .main-hero-subtitle {
+    font-size: 20px;
+  }
+
+  .main-hero-title {
+    font-size: 30px;
+    margin-top: 0 !important;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-subtitle1 {
+    margin-top: 0 !important;
+    margin-bottom: 0.4rem;
+  }
+
+  .hero-subtitle2 {
+    margin-top: 0 !important;
+    margin-bottom: 0.75rem;
+  }
+
+  .main-hero-text {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+  }
+
+  .main-hero-button {
+    margin-bottom: 1rem !important;
   }
 }
