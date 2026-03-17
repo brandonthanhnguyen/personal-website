@@ -7,11 +7,16 @@ interface NavigationDotsProps {
 }
 
 const NavigationDots: React.FC<NavigationDotsProps> = ({ scrollTo }) => {
+  const handleClick = (e: React.MouseEvent, ref: string) => {
+    e.preventDefault();
+    scrollTo(ref);
+  };
+
   return (
     <nav className="navigation-dots" id="vertical-navigation">
       <ul>
-        <li onClick={() => scrollTo("introduction")}>
-          <a href="/#">
+        <li>
+          <a href="/" onClick={(e) => handleClick(e, "introduction")}>
             <span
               className="vertical-navigation-dot"
               id="dot-introduction"
@@ -19,14 +24,14 @@ const NavigationDots: React.FC<NavigationDotsProps> = ({ scrollTo }) => {
             <span className="vertical-navigation-label">INTRODUCTION</span>
           </a>
         </li>
-        <li onClick={() => scrollTo("about")}>
-          <a href="/#">
+        <li>
+          <a href="/" onClick={(e) => handleClick(e, "about")}>
             <span className="vertical-navigation-dot" id="dot-about"></span>
             <span className="vertical-navigation-label">ABOUT ME</span>
           </a>
         </li>
-        <li onClick={() => scrollTo("experience")}>
-          <a href="/#">
+        <li>
+          <a href="/" onClick={(e) => handleClick(e, "experience")}>
             <span
               className="vertical-navigation-dot"
               id="dot-experience"
