@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c109b213c26ebf866f9f",
-    "url": "/static/css/main.a06aff97.chunk.css"
+    "revision": "5849f1c21338c2a0a12b",
+    "url": "/static/css/main.d1a93074.chunk.css"
   },
   {
-    "revision": "c109b213c26ebf866f9f",
-    "url": "/static/js/main.c109b213.chunk.js"
+    "revision": "5849f1c21338c2a0a12b",
+    "url": "/static/js/main.5849f1c2.chunk.js"
   },
   {
     "revision": "6819cc997f737fb7eac5",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/Hearth Stone.a829eb03.otf"
   },
   {
-    "revision": "870bb2f574e602434998465dbf94e6bd",
+    "revision": "a7bf0c6e35726fe9bc62e0c18446cfc3",
     "url": "/index.html"
   }
 ];
